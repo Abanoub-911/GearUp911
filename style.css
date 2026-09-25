@@ -1,0 +1,60 @@
+body {background-image: url(Background.png);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;}
+.maintitle{color: rgb(255, 0, 0);
+text-align: center;}
+.intro{ display: flex;
+align-items: center;}
+.introspeech{ color: antiquewhite;
+background-color: blue;
+padding: 20px;
+text-align: center;
+width: 300px; height: 150px;
+border-radius: 15px;}
+.whitesupra{animation: move 2s forwards;}
+@keyframes move {
+    from{ transform: translateX(1000px);}
+    to { transform: translateX(450px);}
+}
+.engine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;;
+}
+.wow{ color: antiquewhite;
+     margin-right: 800px;
+   margin-bottom: 100px;
+    background-color: blue;
+border-radius: 15px;
+padding: 20px;
+width: 250px;
+height: 50px;}
+.photo{ display: block;
+text-align:right;
+display: flex;
+justify-content: flex-end;}
+.infor{ color: antiquewhite;
+background-color: blue;
+border-radius: 15px;
+text-align: center;
+width: 300px;
+height: 50px;
+padding: 20px;}
+.per {text-align: center;
+color: antiquewhite;
+text-decoration-line: underline;}
+.information{ color: antiquewhite;}
+.all{ text-align: center;
+background-color: blue;
+color: antiquewhite;
+width: 300px; height: 35px;
+border-radius: 15px;
+padding: 15px;
+margin: auto;}
+.last{ display: flex;
+justify-content: center;
+}
+.all{gap: 100px;}
